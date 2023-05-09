@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(/font/SVNGilroy\ Bold.woff) format(opentype), url(/font/SVNGilroy\ Light.woff) format(opentype);
+}
+
+html {
+  font-family: 'Gilroy', sans-serif;
+  background-color: #F4F4F4;
+  min-width: 320px;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  padding: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #003459;
+  border-radius: 15px;
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+#modal {
+  background-image: url("/media/modalBackground.webp");
+  background-position: center;
+  background-size: cover;
+  background-color: #F4F4F4;
+}
+
+@media (min-width: 1024px) {
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #EEC77E;
+    transform-origin: center;
+    transition: transform 0.6s ease-out;
+  }
+
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+}
