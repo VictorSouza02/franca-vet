@@ -4,11 +4,13 @@ const LandingSection = () => {
     const [screen, setScreen] = useState(null)
 
     useEffect(() => {
-        handleScreen()
-        window.addEventListener('resize', handleScreen);
-        return () => {
-            window.removeEventListener('resize', handleScreen);
-        };
+        if (typeof window !== undefined) {
+            handleScreen()
+            window.addEventListener('resize', handleScreen);
+            return () => {
+                window.removeEventListener('resize', handleScreen);
+            };
+        }
     }, [])
 
     const getScreen = () => {

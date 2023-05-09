@@ -135,10 +135,12 @@ const LandingTipsSection = () => {
                 </div>
 
                 <p className="text-black-gray">
+                    {`
                     O Lulu da Pomerânia, também conhecido como Spitz Alemão Anão,
                     é uma raça de cachorro pequeno e fofo que é originária da região de Pomerânia,
                     na Europa Central. Estes cães são conhecidos por sua pelagem espessa e fofa,
                     o que lhes dá uma aparência de "bola de algodão".
+                    `}
                 </p>
 
                 <p className="text-black-gray">
