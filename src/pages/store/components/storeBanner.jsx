@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import HoldingPet from "../../media/HoldingPet.png"
-import Puppies from "../../media/puppies.png"
 import Image from "next/image";
 
 export default function StoreBanner() {
@@ -55,8 +53,8 @@ export default function StoreBanner() {
                         left-[50%] translate-x-[-50%]
                         lg:right-[15%] 2xl:right-[20%]
                     "
-                    src={HoldingPet}
-                    alt="Cachorrinhos"
+                    src="/media/HoldingPet.png"
+                    alt="Tutora segurando seu cachorro"
                     width="100"
                     height="100"
                 />
@@ -67,7 +65,7 @@ export default function StoreBanner() {
                     className="
                         z-50 absolute left-[0] bottom-0 lg:w-[500px]
                     "
-                    src={Puppies}
+                    src="/media/puppies.png"
                     alt="Cachorrinhos"
                     width="350"
                     height="100"

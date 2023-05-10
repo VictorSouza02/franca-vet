@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import React, { useState } from "react"
 
 export default function Header() {
@@ -32,8 +33,8 @@ export default function Header() {
                         </button>
                     </div>
 
-                    <a
-                        to='/'
+                    <Link
+                        href='/'
                         className="justify-self-start lg:order-[-1] overflow-hidden w-[32px]"
                     >
                         <Image
@@ -42,10 +43,10 @@ export default function Header() {
                             width="32"
                             height="32"
                         />
-                    </a>
+                    </Link>
 
-                    <a
-                        to='/loja'
+                    <Link
+                        href='/loja'
                         className="overflow-hidden w-[32px] aspect-square mt-2 lg:hidden"
                     >
                         <svg
@@ -64,7 +65,7 @@ export default function Header() {
                             1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 
                             1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z" />
                         </svg>
-                    </a>
+                    </Link>
 
                     <div
                         className={`${openHeader
@@ -75,12 +76,12 @@ export default function Header() {
                         <ul
                             className="flex flex-col lg:flex-row lg:w-full ml-6 py-2 lg:ml-0 lg:py-0 gap-2 lg:gap-8">
                             <li className="flex gap-2 items-center whitespace-nowrap hover-underline-animation">
-                                <a
+                                <Link
                                     onClick={() => setOpenHeader(false)}
-                                    to='/'
+                                    href='/'
                                 >
                                     Home
-                                </a>
+                                </Link>
 
                                 <div className="lg:hidden">
                                     <svg
@@ -104,12 +105,12 @@ export default function Header() {
                             </li>
 
                             <li className="flex gap-2 items-center whitespace-nowrap hover-underline-animation">
-                                <a
+                                <Link
                                     onClick={() => setOpenHeader(false)}
-                                    to='/loja'
+                                    href='/loja'
                                 >
                                     Loja
-                                </a>
+                                </Link>
 
                                 <div className="lg:hidden">
                                     <svg
@@ -133,12 +134,12 @@ export default function Header() {
                             </li>
 
                             <li className="flex gap-2 items-center whitespace-nowrap hover-underline-animation">
-                                <a
+                                <Link
                                     onClick={() => setOpenHeader(false)}
-                                    to='/atendimentos'
+                                    href='/atendimentos'
                                 >
                                     Atendimentos
-                                </a>
+                                </Link>
 
                                 <div className="lg:hidden">
                                     <svg
@@ -162,12 +163,12 @@ export default function Header() {
                             </li>
 
                             <li className="flex gap-2 items-center whitespace-nowrap hover-underline-animation">
-                                <a
+                                <Link
                                     onClick={() => setOpenHeader(false)}
-                                    to='/vocesabia'
+                                    href='/vocesabia'
                                 >
                                     Você sabia?
-                                </a>
+                                </Link>
 
                                 <div className="lg:hidden">
                                     <svg
@@ -191,12 +192,12 @@ export default function Header() {
                             </li>
 
                             <li className="flex gap-2 items-center whitespace-nowrap hover-underline-animation">
-                                <a
+                                <Link
                                     onClick={() => setOpenHeader(false)}
-                                    to='/quemsomos'
+                                    href='/quemsomos'
                                 >
                                     Quem somos?
-                                </a>
+                                </Link>
 
                                 <div className="lg:hidden">
                                     <svg
