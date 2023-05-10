@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import StoreBanner from "@/pages/store/components/storeBanner";
 import Image from "next/image";
+import StoreBanner from "./components/storeBanner";
 
 export default function Store() {
     const [screen, setScreen] = useState(null)

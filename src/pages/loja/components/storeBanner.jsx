@@ -63,11 +63,11 @@ export default function StoreBanner() {
 
                 <Image
                     className="
-                        z-50 absolute left-[0] bottom-0 lg:w-[500px]
+                        z-50 absolute left-[0] bottom-0 w-[350px] lg:w-[500px]
                     "
                     src="/media/puppies.png"
                     alt="Cachorrinhos"
-                    width="350"
+                    width="500"
                     height="100"
                 />
             }
