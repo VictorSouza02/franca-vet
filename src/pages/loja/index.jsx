@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import StoreBanner from "./components/storeBanner";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Footer from "@/components/FooterResponsive";
 
 export default function Store() {
     const [screen, setScreen] = useState(null)
