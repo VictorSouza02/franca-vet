@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React, { useEffect, useState } from "react"
 
 export default function Header() {
@@ -35,7 +36,12 @@ export default function Header() {
                         to='/'
                         className="justify-self-start lg:order-[-1] overflow-hidden w-[32px]"
                     >
-                        <img src="/media/logo.png" alt="frança vet" className="w-full" />
+                        <Image
+                            src="/media/logo.png"
+                            alt="frança vet"
+                            width="32"
+                            height="32"
+                        />
                     </a>
 
                     <a
