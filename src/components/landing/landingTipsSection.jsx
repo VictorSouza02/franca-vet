@@ -14,7 +14,7 @@ const LandingTipsSection = () => {
                 w-full overflow-hidden flex flex-col shadow-lg
             "
         >
-            <div className="w-[90%] md:w-[70%] mx-auto p-4 flex flex-col items-center gap-6">
+            <div className="w-[90%] md:w-[70%] max-w-[1000px] mx-auto py-4 flex flex-col items-center gap-6">
                 <div className="md:self-start">
                     <h2 className="text-black-gray">Você sabia?</h2>
                     <h1 className="text-dark-blue text-2xl">dicas úteis para o seu pet!</h1>

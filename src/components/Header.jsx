@@ -5,7 +5,7 @@ export default function Header() {
     const [openHeader, setOpenHeader] = useState(false)
 
     return (
-        <header className="w-[90%] md:w-[70%] mx-auto relative z-[1000]">
+        <header className="w-[90%] md:w-[70%] max-w-[1000px] mx-auto relative z-[1000]">
             <nav
                 className="absolute flex w-full items-center justify-between py-2 mt-2">
                 <div className="flex w-full flex-wrap items-center justify-between">

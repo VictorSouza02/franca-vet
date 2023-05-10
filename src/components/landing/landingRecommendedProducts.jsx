@@ -8,7 +8,7 @@ const LandingRecommendedProducts = () => {
                 w-full overflow-hidden flex flex-col
             "
         >
-            <div className="w-[90%] md:w-[70%] h-full mx-auto p-4 flex flex-col gap-6">
+            <div className="w-[90%] md:w-[70%] max-w-[1000px] h-full mx-auto py-4 flex flex-col gap-6">
                 <div>
                     <h2 className="text-black-gray">Recomendado</h2>
                     <h1 className="text-dark-blue text-2xl">Dê uma olhada!</h1>

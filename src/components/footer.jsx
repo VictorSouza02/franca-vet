@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer className="bg-dark-blue text-center text-white w-full">
-            <div className="w-[90%] md:w-[70%] mx-auto p-2 flex flex-col gap-2">
+            <div className="w-[90%] md:w-[70%] max-w-[1000px] mx-auto p-2 flex flex-col gap-2">
                 <a
                     href="https://github.com/VictorSouza02/franca-vet"
                     target="_blank"

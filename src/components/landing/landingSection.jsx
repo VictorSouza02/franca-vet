@@ -29,8 +29,8 @@ const LandingSection = () => {
                 md:h-[100vh]
             "
         >
-            <div className="w-[90%] md:w-[70%] h-full mx-auto p-4">
-                <div className="mt-[4.75rem] flex flex-col gap-4 items-center md:items-start">
+            <div className="w-[90%] md:w-[70%] max-w-[1000px] h-full mx-auto py-4">
+                <div className="mt-20 flex flex-col gap-4 items-center md:items-start">
                     <div
                         className="
                                 z-50 flex flex-col gap-2 md:w-[300px]

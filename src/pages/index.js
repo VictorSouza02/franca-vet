@@ -11,11 +11,11 @@ export default function Home() {
 
       <LandingSection />
 
-            <LandingRecommendedProducts />
+      <LandingRecommendedProducts />
 
-            <LandingTipsSection />
+      <LandingTipsSection />
 
-            <Footer />
+      <Footer />
     </main>
   )
 }
