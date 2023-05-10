@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Link } from "next/link";
 
 const LandingRecommendedProducts = () => {
@@ -20,10 +21,12 @@ const LandingRecommendedProducts = () => {
                 "
                 >
                     {/* <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
-                        <img
+                        <Image
                             src='#'
                             alt="Exemplo de produto"
                             className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
+                            width="100"
+                            height="100"
                         />
 
                         <div className="flex flex-col gap-2">
@@ -56,10 +59,12 @@ const LandingRecommendedProducts = () => {
                     </div> */}
 
                     <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
-                        <img
+                        <Image
                             src="/media/manutention.gif"
                             alt="Exemplo de cachorro"
                             className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
+                            width="100"
+                            height="100"
                         />
 
                         <div className="flex flex-col gap-2">
@@ -76,10 +81,12 @@ const LandingRecommendedProducts = () => {
                     </div>
 
                     <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
-                        <img
+                        <Image
                             src="/media/manutention.gif"
                             alt="Exemplo de cachorro"
                             className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
+                            width="100"
+                            height="100"
                         />
 
                         <div className="flex flex-col gap-2">
@@ -96,10 +103,12 @@ const LandingRecommendedProducts = () => {
                     </div>
 
                     <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
-                        <img
+                        <Image
                             src="/media/manutention.gif"
                             alt="Exemplo de cachorro"
                             className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
+                            width="100"
+                            height="100"
                         />
 
                         <div className="flex flex-col gap-2">
@@ -116,10 +125,12 @@ const LandingRecommendedProducts = () => {
                     </div>
 
                     <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
-                        <img
+                        <Image
                             src="/media/manutention.gif"
                             alt="Exemplo de cachorro"
                             className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
+                            width="100"
+                            height="100"
                         />
 
                         <div className="flex flex-col gap-2">

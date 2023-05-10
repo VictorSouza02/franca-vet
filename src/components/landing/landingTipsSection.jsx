@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Modal from "../modal";
 import { useState } from "react";
 
@@ -24,9 +25,11 @@ const LandingTipsSection = () => {
                         onClick={() => setOpenModalPomeranian(true)}
                         className="bg-white w-full lg:w-[30%] overflow-hidden rounded-md flex flex-col items-center max-w-[400px]"
                     >
-                        <img
+                        <Image
                             src="/media/pomeranian.png"
                             alt="Lulu da pomerânina"
+                            width="400"
+                            height="100"
                         />
 
                         <div className="rounded-2xl text-sm mt-2 md:ml-4 md:self-start text-white bg-dark-blueLighter px-3 py-1">
@@ -49,9 +52,11 @@ const LandingTipsSection = () => {
                         onClick={() => setOpenModalEating(true)}
                         className="bg-white w-full lg:w-[30%] overflow-hidden rounded-md flex flex-col items-center max-w-[400px]"
                     >
-                        <img
+                        <Image
                             src="/media/dogEating.png"
                             alt="Cachorro comendo"
+                            width="400"
+                            height="100"
                         />
 
                         <div className="rounded-2xl text-sm mt-2 md:ml-4 md:self-start text-white bg-dark-blueLighter px-3 py-1">
@@ -73,9 +78,11 @@ const LandingTipsSection = () => {
                         onClick={() => setOpenModalCorrecting(true)}
                         className="bg-white w-full lg:w-[30%] overflow-hidden rounded-md flex flex-col items-center max-w-[400px]"
                     >
-                        <img
+                        <Image
                             src="/media/correcting.png"
                             alt="Cachorro sendo corrigido"
+                            width="400"
+                            height="100"
                         />
 
                         <div className="rounded-2xl text-sm mt-2 md:ml-4 md:self-start text-white bg-dark-blueLighter px-3 py-1">
@@ -123,10 +130,12 @@ const LandingTipsSection = () => {
                 setModalOpen={() => setOpenModalPomeranian(!openModalPomeranian)}
             >
                 <div className="flex flex-col md:flex-row items-center gap-4 justify-center">
-                    <img
+                    <Image
                         src="/media/pomeranian.png"
                         alt="Lulu da pomerânia"
-                        className="rounded-md w-[400px] md:w-[200px]"
+                        className="rounded-md md:w-[200px]"
+                        width="400"
+                        height="100"
                     />
 
                     <h1 className="text-dark-blue text-xl text-center md:text-3xl">
@@ -187,10 +196,12 @@ const LandingTipsSection = () => {
                 setModalOpen={() => setOpenModalEating(!openModalEating)}
             >
                 <div className="flex flex-col md:flex-row items-center gap-4 justify-center bg-[rgba(256_256_256_1)]">
-                    <img
+                    <Image
                         src="/media/dogEating.png"
                         alt="Cachorro comendo"
-                        className="rounded-md w-[400px] md:w-[200px]"
+                        className="rounded-md md:w-[200px]"
+                        width="400"
+                        height="100"
                     />
 
                     <h1 className="text-dark-blue text-xl text-center md:text-3xl">
@@ -245,10 +256,12 @@ const LandingTipsSection = () => {
                 setModalOpen={() => setOpenModalCorrecting(!openModalCorrecting)}
             >
                 <div className="flex flex-col md:flex-row items-center gap-4 justify-center bg-[rgba(256_256_256_1)]">
-                    <img
+                    <Image
                         src="/media/correcting.png"
                         alt="Cachorro sendo corrigido"
-                        className="rounded-md w-[400px] md:w-[200px]"
+                        className="rounded-md md:w-[200px]"
+                        width="400"
+                        height="100"
                     />
 
                     <h1 className="text-dark-blue text-xl text-center md:text-3xl">

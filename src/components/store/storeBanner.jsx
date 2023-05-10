@@ -1,16 +1,19 @@
 import { useEffect, useState } from "react";
 import HoldingPet from "../../media/HoldingPet.png"
 import Puppies from "../../media/puppies.png"
+import Image from "next/image";
 
 const StoreBanner = () => {
     const [screen, setScreen] = useState(null)
 
     useEffect(() => {
-        handleScreen()
-        window.addEventListener('resize', handleScreen);
-        return () => {
-            window.removeEventListener('resize', handleScreen);
-        };
+        if (typeof window !== undefined) {
+            handleScreen()
+            window.addEventListener('resize', handleScreen);
+            return () => {
+                window.removeEventListener('resize', handleScreen);
+            };
+        }
     }, [])
 
     const getScreen = () => {
@@ -46,24 +49,28 @@ const StoreBanner = () => {
             </div>
 
             {screen < 768 ?
-                <img
+                <Image
                     className="
-                        z-50 absolute bottom-0 max-w-[100px]
+                        z-50 absolute bottom-0
                         left-[50%] translate-x-[-50%]
                         lg:right-[15%] 2xl:right-[20%]
                     "
                     src={HoldingPet}
                     alt="Cachorrinhos"
+                    width="100"
+                    height="100"
                 />
 
                 :
 
-                <img
+                <Image
                     className="
-                        z-50 absolute left-[0] bottom-0 w-[350px] lg:w-[500px]
+                        z-50 absolute left-[0] bottom-0 lg:w-[500px]
                     "
                     src={Puppies}
                     alt="Cachorrinhos"
+                    width="350"
+                    height="100"
                 />
             }
 

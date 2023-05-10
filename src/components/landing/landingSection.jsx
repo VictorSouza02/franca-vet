@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { useEffect, useState } from "react"
 
 const LandingSection = () => {
@@ -29,7 +30,7 @@ const LandingSection = () => {
             "
         >
             <div className="w-[90%] md:w-[70%] h-full mx-auto p-4">
-                <div className="mt-20 flex flex-col gap-4 items-center md:items-start">
+                <div className="mt-[4.75rem] flex flex-col gap-4 items-center md:items-start">
                     <div
                         className="
                                 z-50 flex flex-col gap-2 md:w-[300px]
@@ -74,24 +75,28 @@ const LandingSection = () => {
                 </div>
 
                 {screen < 768 ?
-                    <img
+                    <Image
                         className="
-                            z-50 absolute left-[50%] translate-x-[-50%] bottom-0 max-w-[250px]
+                            z-50 absolute left-[50%] translate-x-[-50%] bottom-0
                         "
                         src="/media/puppies.png"
                         alt="Cachorrinhos"
+                        width="250"
+                        height="100"
                     />
 
 
                     :
 
-                    <img
+                    <Image
                         className="
-                            z-50 absolute right-[5%] translate-x-[-5%] bottom-0 max-w-[350px]
+                            z-50 absolute right-[5%] translate-x-[-5%] bottom-0
                             lg:right-[15%] 2xl:right-[20%]
                         "
                         src="/media/HoldingPet.png"
-                        alt="Cachorrinhos"
+                        alt="Tutora segurando seu cachorro"
+                        width="350"
+                        height="350"
                     />
                 }
 
@@ -157,7 +162,12 @@ const LandingSection = () => {
                     target="_blank"
                     className="absolute z-50 right-[5%] md:right-[15%] bottom-12 aspect-square w-14 bounce"
                 >
-                    <img src="/media/whatsappIcon.png" alt="Whatsapp" />
+                    <Image
+                        src="/media/whatsappIcon.png"
+                        alt="Whatsapp"
+                        width="100"
+                        height="100"
+                    />
                 </a>
             </div>
         </section >
