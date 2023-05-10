@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Link } from "next/link";
+import Link from "next/link";
 
-const LandingRecommendedProducts = () => {
+export default function RecommendedProducts() {
     return (
         <section
             className="
@@ -147,8 +147,8 @@ const LandingRecommendedProducts = () => {
                     </div>
                 </div>
 
-                <a
-                    to='loja'
+                <Link
+                    href='/loja'
                     className="
                         rounded-2xl border-2 border-dark-blue text-dark-blue flex justify-center items-center gap-2
                         capitalize px-3 py-1 duration-[0.6s] w-[350px] max-w-[60%] self-center
@@ -167,10 +167,8 @@ const LandingRecommendedProducts = () => {
                         <path fllrule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 
                         0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                     </svg>
-                </a>
+                </Link>
             </div>
         </section>
     )
 }
-
-export default LandingRecommendedProducts;

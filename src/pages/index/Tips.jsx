@@ -1,17 +1,24 @@
 import Image from "next/image";
-import Modal from "../modal";
+import Modal from "../../components/modal";
 import { useState } from "react";
+import Link from "next/link";
 
-const LandingTipsSection = () => {
+export default function Tips() {
     const [openModalPomeranian, setOpenModalPomeranian] = useState(false)
     const [openModalEating, setOpenModalEating] = useState(false)
     const [openModalCorrecting, setOpenModalCorrecting] = useState(false)
 
-
+    // if (typeof document !== undefined) {
+    //     if (openModalPomeranian || openModalEating || openModalCorrecting) {
+    //         document.body.classList.add('overflow-y-hidden')
+    //     } else {
+    //         document.body.classList.remove('overflow-y-hidden')
+    //     }
+    // }
     return (
         <section
             className="
-                w-full overflow-hidden flex flex-col shadow-lg
+                w-full overflow-hidden flex flex-col shadow-lg overflow-y-hidden
             "
         >
             <div className="w-[90%] md:w-[70%] max-w-[1000px] mx-auto py-4 flex flex-col items-center gap-6">
@@ -102,8 +109,8 @@ const LandingTipsSection = () => {
                     </button>
                 </div>
 
-                <a
-                    to='vocesabia'
+                <Link
+                    href='vocesabia'
                     className="
                         rounded-2xl border-2 border-dark-blue text-dark-blue flex justify-center items-center gap-2
                         capitalize px-3 py-1 duration-[0.6s] w-[350px] max-w-[60%] self-center
@@ -122,7 +129,7 @@ const LandingTipsSection = () => {
                         <path fllrule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 
                         0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                     </svg>
-                </a>
+                </Link>
             </div>
 
             <Modal
@@ -309,5 +316,3 @@ const LandingTipsSection = () => {
         </section>
     )
 }
-
-export default LandingTipsSection;

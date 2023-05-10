@@ -1,7 +1,8 @@
 import Image from "next/image"
+import Link from "next/link"
 import { useEffect, useState } from "react"
 
-const LandingSection = () => {
+export default function Landing() {
     const [screen, setScreen] = useState(null)
 
     useEffect(() => {
@@ -50,8 +51,8 @@ const LandingSection = () => {
                     </div>
 
                     <div className="flex flex-row gap-4 mt-4 z-50">
-                        <a
-                            to="/atendimentos"
+                        <Link
+                            href="/atendimentos"
                             className="
                             rounded-2xl border-2 border-dark-blue text-dark-blue whitespace-nowrap
                             capitalize px-3 py-1 duration-[0.6s]
@@ -59,10 +60,10 @@ const LandingSection = () => {
                         "
                         >
                             Nossos serviços
-                        </a>
+                        </Link>
 
-                        <a
-                            to="/loja"
+                        <Link
+                            href="/loja"
                             className="
                             rounded-2xl bg-dark-blue text-white border-2 border-transparent whitespace-nowrap
                             capitalize px-3 py-1 hover:border-dark-blue 
@@ -70,7 +71,7 @@ const LandingSection = () => {
                         "
                         >
                             Produtos
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -173,5 +174,3 @@ const LandingSection = () => {
         </section >
     )
 }
-
-export default LandingSection;

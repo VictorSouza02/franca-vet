@@ -1,19 +1,19 @@
-import LandingSection from "../components/landing/landingSection";
-import LandingRecommendedProducts from "../components/landing/landingRecommendedProducts";
-import LandingTipsSection from "../components/landing/landingTipsSection";
+import Landing from "./index/Landing";
+import RecommendedProducts from "./index/RecommendedProducts";
+import Tips from "./index/Tips";
 import Header from "../components/Header";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <main>
       <Header />
 
-      <LandingSection />
+      <Landing />
 
-      <LandingRecommendedProducts />
+      <RecommendedProducts />
 
-      <LandingTipsSection />
+      <Tips />
 
       <Footer />
     </main>

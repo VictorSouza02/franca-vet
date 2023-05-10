@@ -3,7 +3,7 @@ import HoldingPet from "../../media/HoldingPet.png"
 import Puppies from "../../media/puppies.png"
 import Image from "next/image";
 
-const StoreBanner = () => {
+export default function StoreBanner() {
     const [screen, setScreen] = useState(null)
 
     useEffect(() => {
@@ -123,5 +123,3 @@ const StoreBanner = () => {
         </section>
     )
 }
-
-export default StoreBanner;

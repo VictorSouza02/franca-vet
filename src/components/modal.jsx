@@ -1,11 +1,4 @@
-const Modal = ({ openModal, setModalOpen, children }) => {
-
-    // if (openModal) {
-    //     document.body.classList.add('overflow-y-hidden')
-    // } else {
-    //     document.body.classList.remove('overflow-y-hidden')
-    // }
-
+export default function Modal({openModal, setModalOpen, children}) {
     return (
         openModal ?
             <div className="w-full h-full fixed top-0 left-0 z-[1005] bg-black/60">
@@ -40,5 +33,3 @@ const Modal = ({ openModal, setModalOpen, children }) => {
             null
     )
 }
-
-export default Modal;
