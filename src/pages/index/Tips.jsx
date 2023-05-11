@@ -48,7 +48,7 @@ export default function Tips() {
                                 O que é um lulu-da-pomerânia? Como identificar cães da Pomerânia
                             </h1>
 
-                            <p className="text-black-gray mt-2">
+                            <p className="text-black-gray/70 mt-2">
                                 Spitz-alemão-anão, um cão adorável e habilidoso,
                                 também é conhecido como lulu-da-pomerânia e está sempre entre os mais fofos.
                             </p>
@@ -73,7 +73,7 @@ export default function Tips() {
                         <div className="text-center mt-2 pb-4 px-2 md:text-start md:ml-2">
                             <h1 className="text-black-gray text-lg">Dieta para cães que você precisa saber</h1>
 
-                            <p className="text-black-gray mt-2">
+                            <p className="text-black-gray/70 mt-2">
                                 Dividir a dieta de um cachorro pode parecer simples a princípio,
                                 mas existem algumas regras para que seu cachorro consiga
                                 absorver facilmente os nutrientes da dieta.
@@ -101,7 +101,7 @@ export default function Tips() {
                                 Por que os cães mordem e destroem móveis e como prevenir isso de forma eficaz
                             </h1>
 
-                            <p className="text-black-gray mt-2">
+                            <p className="text-black-gray/70 mt-2">
                                 Mordidas de cachorro durante o desenvolvimento são comuns,
                                 mas ninguém quer ver seus móveis ou itens importantes sendo destruídos pelo animal.
                             </p>
@@ -151,12 +151,10 @@ export default function Tips() {
                 </div>
 
                 <p className="text-black-gray">
-                    {`
                     O Lulu da Pomerânia, também conhecido como Spitz Alemão Anão,
                     é uma raça de cachorro pequeno e fofo que é originária da região de Pomerânia,
                     na Europa Central. Estes cães são conhecidos por sua pelagem espessa e fofa,
-                    o que lhes dá uma aparência de "bola de algodão".
-                    `}
+                    o que lhes dá uma aparência de &quot;bola de algodão&quot;.
                 </p>
 
                 <p className="text-black-gray">
