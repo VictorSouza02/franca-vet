@@ -3,7 +3,6 @@ import Image from "next/image";
 import StoreBanner from "./components/storeBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/FooterResponsive";
-import Head from "next/head";
 
 export default function Store() {
     const [screen, setScreen] = useState(null)
@@ -26,43 +25,31 @@ export default function Store() {
         setScreen(getScreen())
     }
     return (
-        <html>
-            <Head>
-                <meta name="theme-color" content="#EEC77E" />
-                <meta name="apple-mobile-web-app-status-bar-style" content="#EEC77E" />
-                <meta name="msapplication-navbutton-color" content="#EEC77E" />
+        <main>
+            <Header />
 
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name="description" content="Os Melhores Produtos Para O Seu Pet!" />
-
-                <title>França Vet &#128062;</title>
-            </Head>
-
-            <main>
-                <Header />
-
-                <section
-                    className="
+            <section
+                className="
                     w-full overflow-hidden shadow-lg min-h-[259px]
                 "
-                >
-                    <div className="w-[90%] md:w-[70%] h-full mx-auto mt-16 mb-6 flex flex-col gap-4">
-                        <span className="text-black-grayLighter text-sm">Bread Crumb</span>
+            >
+                <div className="w-[90%] md:w-[70%] h-full mx-auto mt-16 mb-6 flex flex-col gap-4">
+                    <span className="text-black-grayLighter text-sm">Bread Crumb</span>
 
-                        <StoreBanner />
+                    <StoreBanner />
 
-                        <div>
-                            <h1 className="text-dark-blue text-xl">Nossos produtos!</h1>
-                        </div>
+                    <div>
+                        <h1 className="text-dark-blue text-xl">Nossos produtos!</h1>
+                    </div>
 
-                        <div
-                            className="
+                    <div
+                        className="
                             grid grid-cols-2 w-full gap-4 justify-around items-center
                             md:grid-cols-3
                             lg:grid-cols-4
                         "
-                        >
-                            {/* <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                    >
+                        {/* <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
                             <img
                                 src='#'
                                 alt="Exemplo de produto"
@@ -100,121 +87,120 @@ export default function Store() {
                             </div>
                         </div> */}
 
-                            <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
-                                <Image
-                                    src="/media/manutention.gif"
-                                    alt="Em manutenção"
-                                    className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
-                                    width="200"
-                                    height="100"
-                                />
+                        <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                            <Image
+                                src="/media/manutention.gif"
+                                alt="Em manutenção"
+                                className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
+                                width="200"
+                                height="100"
+                            />
 
-                                <div className="flex flex-col gap-2">
-                                    <h1 className="text-black-gray text-center">Em breve</h1>
+                            <div className="flex flex-col gap-2">
+                                <h1 className="text-black-gray text-center">Em breve</h1>
 
-                                    <p className="w-[160px] h-[15px] bg-black-grayLighter hidden md:block">
-                                    </p>
+                                <p className="w-[160px] h-[15px] bg-black-grayLighter hidden md:block">
+                                </p>
 
-                                    <h1 className="w-[50px] h-[10px] bg-black-gray"></h1>
+                                <h1 className="w-[50px] h-[10px] bg-black-gray"></h1>
 
-                                    <div className="w-[80px] bg-yellow-500 h-[15px]">
-                                    </div>
+                                <div className="w-[80px] bg-yellow-500 h-[15px]">
                                 </div>
                             </div>
+                        </div>
 
-                            <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
-                                <Image
-                                    src="/media/manutention.gif"
-                                    alt="Em manutenção"
-                                    className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
-                                    width="200"
-                                    height="100"
-                                />
+                        <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                            <Image
+                                src="/media/manutention.gif"
+                                alt="Em manutenção"
+                                className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
+                                width="200"
+                                height="100"
+                            />
 
-                                <div className="flex flex-col gap-2">
-                                    <h1 className="text-black-gray text-center">Em breve</h1>
+                            <div className="flex flex-col gap-2">
+                                <h1 className="text-black-gray text-center">Em breve</h1>
 
-                                    <p className="w-[160px] h-[15px] bg-black-grayLighter hidden md:block">
-                                    </p>
+                                <p className="w-[160px] h-[15px] bg-black-grayLighter hidden md:block">
+                                </p>
 
-                                    <h1 className="w-[50px] h-[10px] bg-black-gray"></h1>
+                                <h1 className="w-[50px] h-[10px] bg-black-gray"></h1>
 
-                                    <div className="w-[80px] bg-yellow-500 h-[15px]">
-                                    </div>
+                                <div className="w-[80px] bg-yellow-500 h-[15px]">
                                 </div>
                             </div>
+                        </div>
 
-                            <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
-                                <Image
-                                    src="/media/manutention.gif"
-                                    alt="Em manutenção"
-                                    className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
-                                    width="200"
-                                    height="100"
-                                />
+                        <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                            <Image
+                                src="/media/manutention.gif"
+                                alt="Em manutenção"
+                                className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
+                                width="200"
+                                height="100"
+                            />
 
-                                <div className="flex flex-col gap-2">
-                                    <h1 className="text-black-gray text-center">Em breve</h1>
+                            <div className="flex flex-col gap-2">
+                                <h1 className="text-black-gray text-center">Em breve</h1>
 
-                                    <p className="w-[160px] h-[15px] bg-black-grayLighter hidden md:block">
-                                    </p>
+                                <p className="w-[160px] h-[15px] bg-black-grayLighter hidden md:block">
+                                </p>
 
-                                    <h1 className="w-[50px] h-[10px] bg-black-gray"></h1>
+                                <h1 className="w-[50px] h-[10px] bg-black-gray"></h1>
 
-                                    <div className="w-[80px] bg-yellow-500 h-[15px]">
-                                    </div>
+                                <div className="w-[80px] bg-yellow-500 h-[15px]">
                                 </div>
                             </div>
+                        </div>
 
-                            <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
-                                <Image
-                                    src="/media/manutention.gif"
-                                    alt="Em manutenção"
-                                    className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
-                                    width="200"
-                                    height="100"
-                                />
+                        <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                            <Image
+                                src="/media/manutention.gif"
+                                alt="Em manutenção"
+                                className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
+                                width="200"
+                                height="100"
+                            />
 
-                                <div className="flex flex-col gap-2">
-                                    <h1 className="text-black-gray text-center">Em breve</h1>
+                            <div className="flex flex-col gap-2">
+                                <h1 className="text-black-gray text-center">Em breve</h1>
 
-                                    <p className="w-[160px] h-[15px] bg-black-grayLighter hidden md:block">
-                                    </p>
+                                <p className="w-[160px] h-[15px] bg-black-grayLighter hidden md:block">
+                                </p>
 
-                                    <h1 className="w-[50px] h-[10px] bg-black-gray"></h1>
+                                <h1 className="w-[50px] h-[10px] bg-black-gray"></h1>
 
-                                    <div className="w-[80px] bg-yellow-500 h-[15px]">
-                                    </div>
+                                <div className="w-[80px] bg-yellow-500 h-[15px]">
                                 </div>
                             </div>
+                        </div>
 
-                            <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
-                                <Image
-                                    src="/media/manutention.gif"
-                                    alt="Em manutenção"
-                                    className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
-                                    width="200"
-                                    height="100"
-                                />
+                        <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                            <Image
+                                src="/media/manutention.gif"
+                                alt="Em manutenção"
+                                className="rounded-md w-[100%] max-w-[200px] md:w-[75%]"
+                                width="200"
+                                height="100"
+                            />
 
-                                <div className="flex flex-col gap-2">
-                                    <h1 className="text-black-gray text-center">Em breve</h1>
+                            <div className="flex flex-col gap-2">
+                                <h1 className="text-black-gray text-center">Em breve</h1>
 
-                                    <p className="w-[160px] h-[15px] bg-black-grayLighter hidden md:block">
-                                    </p>
+                                <p className="w-[160px] h-[15px] bg-black-grayLighter hidden md:block">
+                                </p>
 
-                                    <h1 className="w-[50px] h-[10px] bg-black-gray"></h1>
+                                <h1 className="w-[50px] h-[10px] bg-black-gray"></h1>
 
-                                    <div className="w-[80px] bg-yellow-500 h-[15px]">
-                                    </div>
+                                <div className="w-[80px] bg-yellow-500 h-[15px]">
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section >
+                </div>
+            </section >
 
-                <Footer />
-            </main>
-        </html>
+            <Footer />
+        </main>
     )
 }
