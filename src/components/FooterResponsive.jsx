@@ -38,7 +38,7 @@ export default function FooterResponsive() {
 
                 <div className="grid grid-cols-2 gap-4 p-2">
                     <div className="md:order-[2]">
-                        <h5 className="font-bold uppercase">Bibliografia</h5>
+                        <h1 className="font-bold uppercase">Bibliografia</h1>
 
                         <ul className="list-none">
                             <li>
@@ -74,7 +74,7 @@ export default function FooterResponsive() {
                     </div>
 
                     <div className="order-[1]">
-                        <h5 className="font-bold uppercase">Víctor Souza</h5>
+                        <h1 className="font-bold uppercase">Víctor Souza</h1>
 
                         <ul className="list-none">
                             <li>
