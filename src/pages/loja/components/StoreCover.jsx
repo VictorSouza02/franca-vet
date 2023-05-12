@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-export default function StoreBanner() {
+export default function StoreCover() {
     const [screen, setScreen] = useState(null)
 
     useEffect(() => {
