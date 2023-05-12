@@ -18,7 +18,7 @@ export default function Tips() {
               w-full overflow-hidden flex flex-col shadow-lg min-h-[259px]
           "
       >
-        <div className="w-[90%] md:w-[70%] h-full mx-auto mt-16 mb-4 flex flex-col gap-2">
+        <div className="w-[90%] md:w-[70%] h-full mx-auto mt-16 mb-4 flex flex-col gap-6">
           <div>
             <h2 className="text-black-gray">Você Sabia?</h2>
             <h1 className="text-dark-blue text-2xl">Tudo sobre o mundo dos Pets!</h1>
@@ -26,7 +26,7 @@ export default function Tips() {
 
           <div
             className="
-            grid grid-cols-1 justify-around w-full mx-auto mt-4 gap-6
+            grid grid-cols-1 justify-around w-full mx-auto gap-6
             md:grid-cols-3
             lg:grid-cols-4
           "

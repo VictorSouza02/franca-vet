@@ -49,7 +49,7 @@ export default function Store() {
                             lg:grid-cols-4
                         "
                     >
-                        {/* <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                        {/* <div className="bg-white aspect-[1/1] p-4 rounded-md shadow-md flex flex-col items-center md:gap-4">
                             <img
                                 src='#'
                                 alt="Exemplo de produto"
@@ -87,7 +87,7 @@ export default function Store() {
                             </div>
                         </div> */}
 
-                        <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                        <div className="bg-white aspect-[1/1] p-4 rounded-md shadow-md flex flex-col items-center md:gap-4">
                             <Image
                                 src="/media/manutention.gif"
                                 alt="Em manutenção"
@@ -109,7 +109,7 @@ export default function Store() {
                             </div>
                         </div>
 
-                        <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                        <div className="bg-white aspect-[1/1] p-4 rounded-md shadow-md flex flex-col items-center md:gap-4">
                             <Image
                                 src="/media/manutention.gif"
                                 alt="Em manutenção"
@@ -131,7 +131,7 @@ export default function Store() {
                             </div>
                         </div>
 
-                        <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                        <div className="bg-white aspect-[1/1] p-4 rounded-md shadow-md flex flex-col items-center md:gap-4">
                             <Image
                                 src="/media/manutention.gif"
                                 alt="Em manutenção"
@@ -153,7 +153,7 @@ export default function Store() {
                             </div>
                         </div>
 
-                        <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                        <div className="bg-white aspect-[1/1] p-4 rounded-md shadow-md flex flex-col items-center md:gap-4">
                             <Image
                                 src="/media/manutention.gif"
                                 alt="Em manutenção"
@@ -175,7 +175,7 @@ export default function Store() {
                             </div>
                         </div>
 
-                        <div className="bg-white aspect-[1/1] p-4 rounded-md flex flex-col items-center md:gap-4">
+                        <div className="bg-white aspect-[1/1] p-4 rounded-md shadow-md flex flex-col items-center md:gap-4">
                             <Image
                                 src="/media/manutention.gif"
                                 alt="Em manutenção"

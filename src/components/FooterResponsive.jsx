@@ -37,7 +37,7 @@ export default function FooterResponsive() {
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 p-2">
-                    <div className="md:order-[2]">
+                    <div>
                         <h1 className="font-bold uppercase">Bibliografia</h1>
 
                         <ul className="list-none">
@@ -50,7 +50,6 @@ export default function FooterResponsive() {
                                     Icons8
                                 </a>
                             </li>
-
                             <li>
                                 <a
                                     href="https://icons8.com/illustrations/author/lZpGtGw5182N"
@@ -60,7 +59,6 @@ export default function FooterResponsive() {
                                     Elisabet Guba
                                 </a>
                             </li>
-
                             <li>
                                 <a
                                     href="https://www.freepik.com/author/catalyststuff"
@@ -70,10 +68,28 @@ export default function FooterResponsive() {
                                     Catalyststuff
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    href="https://www.flaticon.com/br/icones-gratis/petshop"
+                                    target="_blank"
+                                    className="text-white hover:underline"
+                                >
+                                    imaginationlol
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.flaticon.com/br/icones-gratis/veterinario"
+                                    target="_blank"
+                                    className="text-white hover:underline"
+                                >
+                                    Freepik
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
-                    <div className="order-[1]">
+                    <div>
                         <h1 className="font-bold uppercase">Víctor Souza</h1>
 
                         <ul className="list-none">
