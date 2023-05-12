@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import StoreBanner from "./components/storeBanner";
+import StoreBanner from "./components/StoreBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/FooterResponsive";
 

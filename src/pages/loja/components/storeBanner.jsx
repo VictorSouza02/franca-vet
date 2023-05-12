@@ -22,7 +22,7 @@ export default function StoreBanner() {
         setScreen(getScreen())
     }
     return (
-        <section
+        <div
             className="
                 w-full h-[260px] rounded-md bg-gradient-to-t from-mon-yellowLighter to-mon-yellow 
                 overflow-hidden relative p-4 flex md:justify-end z-0
@@ -118,6 +118,6 @@ export default function StoreBanner() {
                 >
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
