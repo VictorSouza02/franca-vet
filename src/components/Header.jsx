@@ -48,6 +48,7 @@ export default function Header() {
                     <Link
                         href='/loja'
                         className="overflow-hidden w-[32px] aspect-square mt-2 lg:hidden"
+                        aria-label="Ver loja"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
