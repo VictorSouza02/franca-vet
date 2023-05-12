@@ -74,12 +74,12 @@ export default function ServicesCover() {
         >
         </div>
 
-        {/* Bottom square */}
+        {/* Blue square */}
         <div
           className="
-            absolute w-[780px] aspect-square bottom-[-800px] left-[-180px]
-          bg-dark-blueDarker rounded-[30px] rotate-[25deg]
-            md:
+            absolute w-[780px] aspect-square bottom-[-780px] left-[-70px]
+          bg-dark-blueDarker rounded-[30px] rotate-[11deg]
+            md:rotate-[25deg] md:bottom-[-800px] md:left-[-180px]
           "
         >
         </div>

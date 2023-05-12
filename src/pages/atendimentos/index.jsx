@@ -15,7 +15,13 @@ export default function Services() {
         <div className="w-[90%] md:w-[70%] h-full mx-auto mt-16 mb-4 flex flex-col gap-2">
           <span className="text-black-grayLighter text-sm">Bread Crumb</span>
 
-          <ServicesCover/>
+          <ServicesCover />
+
+          <div>
+            <h1 className="text-dark-blue text-xl">Nossos serviços!</h1>
+          </div>
+
+          
 
         </div>
       </section>
