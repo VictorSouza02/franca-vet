@@ -83,10 +83,6 @@ export default function Services() {
               </h1>
             </div>
           </div>
-
-          <div>
-            <h1 className="text-dark-blue text-xl">Clínica Veterinária</h1>
-          </div>
         </div>
       </section>
 
