@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import StoreBanner from "./components/StoreBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/FooterResponsive";
+import StoreBanner from "./components/StoreBanner";
 
 export default function Store() {
     const [screen, setScreen] = useState(null)
@@ -36,7 +36,7 @@ export default function Store() {
                 <div className="w-[90%] md:w-[70%] h-full mx-auto mt-16 mb-6 flex flex-col gap-4">
                     <span className="text-black-grayLighter text-sm">Bread Crumb</span>
 
-                    <StoreBanner />
+                    <StoreBanner/>
 
                     <div>
                         <h1 className="text-dark-blue text-xl">Nossos produtos!</h1>
