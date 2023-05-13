@@ -33,7 +33,7 @@ export default function Store() {
                     w-full overflow-hidden shadow-lg min-h-[259px]
                 "
             >
-                <div className="w-[90%] md:w-[70%] h-full mx-auto mt-16 mb-6 flex flex-col gap-4">
+                <div className="w-[90%] md:w-[70%] max-w-[1000px] h-full mx-auto mt-16 mb-6 flex flex-col gap-4">
                     <span className="text-black-grayLighter text-sm">Bread Crumb</span>
 
                     <StoreCover/>
