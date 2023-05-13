@@ -13,7 +13,7 @@ export default function Services() {
               w-full overflow-hidden flex flex-col shadow-lg min-h-[259px]
           "
       >
-        <div className="w-[90%] md:w-[70%] h-full mx-auto mt-16 mb-4 flex flex-col gap-6">
+        <div className="w-[90%] md:w-[70%] max-w-[1000px] h-full mx-auto mt-16 mb-4 flex flex-col gap-6">
           <span className="text-black-grayLighter text-sm">Bread Crumb</span>
 
           <ServicesCover />
