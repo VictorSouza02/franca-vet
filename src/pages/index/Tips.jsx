@@ -8,13 +8,15 @@ export default function Tips() {
     const [openModalEating, setOpenModalEating] = useState(false)
     const [openModalCorrecting, setOpenModalCorrecting] = useState(false)
 
-    // if (typeof document !== undefined) {
-    //     if (openModalPomeranian || openModalEating || openModalCorrecting) {
-    //         document.body.classList.add('overflow-y-hidden')
-    //     } else {
-    //         document.body.classList.remove('overflow-y-hidden')
-    //     }
-    // }
+    if (typeof window === undefined) {
+    } else {
+        if (openModalPomeranian || openModalEating || openModalCorrecting) {
+            document.body.classList.add('overflow-y-hidden')
+        } else {
+            document.body.classList.remove('overflow-y-hidden')
+        }
+    }
+
     return (
         <section
             className="

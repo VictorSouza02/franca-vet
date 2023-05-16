@@ -14,12 +14,8 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 3px;
-  height: 3px;
-}
-
-::-webkit-scrollbar-track {
-  padding: 2px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -75,4 +71,8 @@ html {
     transform: scaleX(1);
     transform-origin: center;
   }
+}
+
+.overflow-scrolling {
+  -webkit-overflow-scrolling: touch;
 }
