@@ -8,8 +8,7 @@ export default function Tips() {
     const [openModalEating, setOpenModalEating] = useState(false)
     const [openModalCorrecting, setOpenModalCorrecting] = useState(false)
 
-    if (typeof window === undefined) {
-    } else {
+    if (typeof window !== undefined) {
         if (openModalPomeranian || openModalEating || openModalCorrecting) {
             document.body.classList.add('overflow-y-hidden')
         } else {
