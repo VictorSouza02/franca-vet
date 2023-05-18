@@ -15,7 +15,7 @@ export default function CarrosselBath() {
       >
         {/* Items */}
 
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="duration-700 ease-in-out" data-carousel-item>
           <video
             src="/media/ArthurAlvarenga/BobVideo.mp4"
             autoPlay
@@ -25,7 +25,7 @@ export default function CarrosselBath() {
           />
         </div>
 
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="duration-700 ease-in-out" data-carousel-item>
           <Image
             src="/media/ArthurAlvarenga/2.jpg"
             alt="Loja pet"
@@ -35,7 +35,7 @@ export default function CarrosselBath() {
           />
         </div>
 
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="duration-700 ease-in-out" data-carousel-item>
           <Image
             src="/media/ArthurAlvarenga/3.jpg"
             alt="Loja pet"
@@ -45,7 +45,7 @@ export default function CarrosselBath() {
           />
         </div>
 
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="duration-700 ease-in-out" data-carousel-item>
           <Image
             src="/media/ArthurAlvarenga/4.jpg"
             alt="Loja pet"
@@ -55,7 +55,7 @@ export default function CarrosselBath() {
           />
         </div>
 
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="duration-700 ease-in-out" data-carousel-item>
           <Image
             src="/media/ArthurAlvarenga/5.jpg"
             alt="Loja pet"
