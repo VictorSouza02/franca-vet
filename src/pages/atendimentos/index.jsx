@@ -2,12 +2,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/FooterResponsive";
 import ServicesCover from "./components/ServicesCover";
 import Image from "next/image";
-import { SideScroll } from "@/components/sideScroll";
 import Link from "next/link";
+import 'flowbite';
+import CarrosselBath from "@/components/CarrosselBath";
 
 export default function Services() {
-  const scrollRef = SideScroll();
-
   return (
     <main>
       <Header />
@@ -28,8 +27,7 @@ export default function Services() {
 
           <div
             className="
-              flex justify-around gap-6 flex-wrap
-              lg:justify-between
+              flex justify-around flex-wrap gap-6
             "
           >
             <div
@@ -42,8 +40,8 @@ export default function Services() {
                 <Image
                   src="/media/petshop.png"
                   alt="Loja pet"
-                  width="80"
-                  height="80"
+                  width="60"
+                  height="60"
                 />
               </div>
 
@@ -62,8 +60,8 @@ export default function Services() {
                 <Image
                   src="/media/banhoetosa.png"
                   alt="Cachorro tomando banho"
-                  width="80"
-                  height="80"
+                  width="60"
+                  height="60"
                 />
               </div>
 
@@ -82,8 +80,8 @@ export default function Services() {
                 <Image
                   src="/media/atendimentopet.png"
                   alt="Clínica veterinária"
-                  width="80"
-                  height="80"
+                  width="60"
+                  height="60"
                 />
               </div>
 
@@ -110,76 +108,18 @@ export default function Services() {
           </div>
 
           <div className="flex flex-col gap-6">
-            <div>
+            <div className="lg:hidden">
               <h1 className="text-dark-blue text-xl capitalize">Banho e tosa</h1>
             </div>
 
-            <div className="flex flex-col gap-6 md:flex-row">
-              <div className="w-full md:w-[30%]">
-                <div ref={scrollRef} className="flex gap-2 overflow-x-scroll overflow-y-hidden snap-x overflow-scrolling scroll-smooth rounded-md shadow-md">
-                  <div className="flex-none w-full h-[300px] snap-start pointer-events-none">
-                    <video
-                      src="/media/ArthurAlvarenga/BobVideo.mp4"
-                      autoPlay
-                      muted
-                      loop
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
+            <div className="flex flex-col gap-6 lg:flex-row lg:items-center">
+              <CarrosselBath />
 
-                  <div className="flex-none w-full h-[300px] snap-start pointer-events-none">
-                    <Image
-                      src="/media/ArthurAlvarenga/1.jpg"
-                      alt="Loja pet"
-                      width="300"
-                      height="300"
-                      className="w-full h-full object-contain md:object-cover rounded-md"
-                    />
-                  </div>
-
-                  <div className="flex-none w-full h-[300px] snap-start pointer-events-none">
-                    <Image
-                      src="/media/ArthurAlvarenga/2.jpg"
-                      alt="Loja pet"
-                      width="300"
-                      height="300"
-                      className="w-full h-full object-contain md:object-cover rounded-md"
-                    />
-                  </div>
-
-                  <div className="flex-none w-full h-[300px] snap-start pointer-events-none">
-                    <Image
-                      src="/media/ArthurAlvarenga/3.jpg"
-                      alt="Loja pet"
-                      width="300"
-                      height="300"
-                      className="w-full h-full object-contain md:object-cover rounded-md"
-                    />
-                  </div>
-
-                  <div className="flex-none w-full h-[300px] snap-start pointer-events-none">
-                    <Image
-                      src="/media/ArthurAlvarenga/4.jpg"
-                      alt="Loja pet"
-                      width="300"
-                      height="300"
-                      className="w-full h-full object-contain md:object-cover rounded-md"
-                    />
-                  </div>
-
-                  <div className="flex-none w-full h-[300px] snap-start pointer-events-none">
-                    <Image
-                      src="/media/ArthurAlvarenga/5.jpg"
-                      alt="Loja pet"
-                      width="300"
-                      height="300"
-                      className="w-full h-full object-contain md:object-cover rounded-md"
-                    />
-                  </div>
+              <div className="lg:w-[55%] flex flex-col items-center gap-6">
+                <div className="hidden lg:block">
+                  <h1 className="text-dark-blue text-3xl font-bold capitalize">Banho e tosa</h1>
                 </div>
-              </div>
 
-              <div className="md:w-[55%] flex flex-col items-center gap-6">
                 <p className="text-black-gray">
                   Deixe o seu pet com uma aparência impecável em nossa seção de Banho e Tosa.
                   Nossos profissionais experientes oferecem serviços de banho relaxante,
@@ -188,7 +128,7 @@ export default function Services() {
                   e agende agora mesmo!
                 </p>
 
-                <div className="flex flex-col items-center gap-6">
+                <div className="flex flex-col items-center gap-6 lg:flex-row max-w-[300px]">
                   <a
                     href='https://www.instagram.com/alvarenga_groomer/'
                     target="_blank"
