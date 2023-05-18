@@ -1,34 +1,41 @@
-'use client';
-
 import { Carousel } from 'flowbite-react';
 import Image from 'next/image';
 
 export default function CarrosselBath() {
   return (
-    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-      <Carousel>
+    <div
+      className="
+        w-full max-w-[380px] self-center h-[300px]
+        lg:order-2
+      "
+    >
+      <Carousel
+        slide={false}
+      >
         <video
           src="/media/ArthurAlvarenga/BobVideo.mp4"
           autoPlay
           muted
           loop
-          className="absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain md:w-full md:h-full md:object-cover"
+          className="w-full h-full object-cover"
         />
 
-        <Image
-          src="/media/ArthurAlvarenga/2.jpg"
-          alt="Loja pet"
-          width="300"
-          height="300"
-          className="absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain md:w-full md:h-full md:object-cover"
-        />
+        <div className='w-full h-[300px]'>
+          <Image
+            src="/media/ArthurAlvarenga/2.jpg"
+            alt="Loja pet"
+            width="300"
+            height="300"
+            className="w-full h-full object-cover"
+          />
+        </div>
 
         <Image
           src="/media/ArthurAlvarenga/3.jpg"
           alt="Loja pet"
           width="300"
           height="300"
-          className="absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain md:w-full md:h-full md:object-cover"
+          className="w-full h-full object-cover"
         />
 
         <Image
@@ -36,7 +43,7 @@ export default function CarrosselBath() {
           alt="Loja pet"
           width="300"
           height="300"
-          className="absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain md:w-full md:h-full md:object-cover"
+          className="w-full h-full object-cover"
         />
 
         <Image
@@ -44,7 +51,7 @@ export default function CarrosselBath() {
           alt="Loja pet"
           width="300"
           height="300"
-          className="absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain md:w-full md:h-full md:object-cover"
+          className="w-full h-full object-cover"
         />
       </Carousel>
     </div>
