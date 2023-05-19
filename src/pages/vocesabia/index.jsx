@@ -35,13 +35,13 @@ export default function Tips() {
           <div
             className="
             grid grid-cols-1 justify-around w-full mx-auto gap-6
-            md:grid-cols-3
-            lg:grid-cols-4
+            md:grid-cols-2 
+            lg:grid-cols-3 lg:gap-14
           "
           >
             <button
               onClick={() => setOpenModalPomeranian(true)}
-              className="bg-white overflow-hidden w-full rounded-md flex flex-col items-center max-w-[300px] mx-auto md:w-[90%]"
+              className="bg-white overflow-hidden w-full rounded-md flex flex-col items-center max-w-[300px] mx-auto md:w-[250px]"
             >
               <Image
                 src="/media/pomeranian.png"
@@ -68,7 +68,7 @@ export default function Tips() {
 
             <button
               onClick={() => setOpenModalEating(true)}
-              className="bg-white overflow-hidden w-full rounded-md flex flex-col items-center max-w-[300px] mx-auto md:w-[90%]"
+              className="bg-white overflow-hidden w-full rounded-md flex flex-col items-center max-w-[300px] mx-auto md:w-[250px]"
             >
               <Image
                 src="/media/dogEating.png"
@@ -94,7 +94,7 @@ export default function Tips() {
 
             <button
               onClick={() => setOpenModalCorrecting(true)}
-              className="bg-white overflow-hidden w-full rounded-md flex flex-col items-center max-w-[300px] mx-auto md:w-[90%]"
+              className="bg-white overflow-hidden w-full rounded-md flex flex-col items-center max-w-[300px] mx-auto md:w-[250px]"
             >
               <Image
                 src="/media/correcting.png"
