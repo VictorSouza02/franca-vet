@@ -40,7 +40,7 @@ export default function FooterResponsive() {
                     <div>
                         <h1 className="font-bold uppercase text-orange-shine">Bibliografia</h1>
 
-                        <ul className="list-none grid gap-2 lg:grid-cols-2 lg:gap-1">
+                        <ul className="list-none grid gap-2 items-center justify-center lg:grid-cols-2 lg:gap-1">
                             <li>
                                 <a
                                     href="https://icons8.com.br/"
@@ -129,6 +129,15 @@ export default function FooterResponsive() {
                                     className="text-white hover:underline"
                                 >
                                     Elo7
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://icons8.com/illustrations/author/627444"
+                                    target="_blank"
+                                    className="text-white hover:underline"
+                                >
+                                    Julia G
                                 </a>
                             </li>
                         </ul>

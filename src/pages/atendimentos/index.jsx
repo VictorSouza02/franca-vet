@@ -172,7 +172,7 @@ export default function Services() {
                     </a>
 
                     <Link
-                      href='/agendamento'
+                      href='/agendamentos'
                       className="
                         rounded-2xl border-2 border-dark-blue text-dark-blue flex justify-center items-center gap-2
                         capitalize px-3 py-1 duration-[0.6s] w-[350px] max-w-[60%] self-center
