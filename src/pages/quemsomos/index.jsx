@@ -33,8 +33,8 @@ export default function About() {
 
               <div>
                 <Image
-                  src="/media/Carol/ana.png"
-                  alt="Lulu da pomerânina"
+                  src="/media/Carol/Ana.png"
+                  alt="Ana Carolina"
                   width="150"
                   height="100"
                   className="hidden md:block object-cover"

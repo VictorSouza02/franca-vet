@@ -28,7 +28,7 @@ export default function Schedules() {
 
             <Image
               src="/media/manutention2.gif"
-              alt="frança vet"
+              alt="Manutenção"
               width="300"
               height="100"
             />
