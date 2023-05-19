@@ -1,14 +1,5 @@
 # França Vet
 
-Este projeto foi feito em Next.Js, onde demonstro meu aprendizado e habilidade produzindo uma aplicação altamente escalável e de qualidade.
-
-# Bibliografia
-
-Landing Page (Por Design Magenest and Sotan (Magenest JSC,.)):
- https://www.figma.com/community/file/1164046882633361201/[FREE-TEMPLATE]-eCommerce-Website---Monito-Pets-for-Best-(Community)/[FREE-TEMPLATE]-eCommerce-Website---Monito-Pets-for-Best-(Community)
-
-Fonte Gilroy (por Tuấn):
-https://www.cufonfonts.com/font/svn-gilroy
-
-wallpaper modal:
-https://www.elo7.com.br/papel-de-parede-adesivo-patas-de-cachorro-osso-pet-017/dp/18A5132
+Este projeto foi utilizando Next.js e Tailwind CSS, oferecendo uma experiência de usuário fluida e interativa.
+Cada página do site foi cuidadosamente planejada para fornecer informações relevantes sobre os serviços 
+oferecidos pela clínica fictícia. Você pode ver todos créditos de recursos utilizados acessando o rodapé do site!

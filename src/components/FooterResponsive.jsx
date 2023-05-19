@@ -12,7 +12,7 @@ export default function FooterResponsive() {
                         hover:bg-opacity-5 focus:outline-none focus:ring-0
                     "
                     aria-label="Ver github"
-                    >
+                >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="mx-auto h-full w-4"
@@ -38,9 +38,9 @@ export default function FooterResponsive() {
 
                 <div className="grid grid-cols-2 gap-4 p-2">
                     <div>
-                        <h1 className="font-bold uppercase">Bibliografia</h1>
+                        <h1 className="font-bold uppercase text-orange-shine">Bibliografia</h1>
 
-                        <ul className="list-none">
+                        <ul className="list-none grid gap-2 lg:grid-cols-2 lg:gap-1">
                             <li>
                                 <a
                                     href="https://icons8.com.br/"
@@ -86,11 +86,56 @@ export default function FooterResponsive() {
                                     Freepik
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/alvarenga_groomer/"
+                                    target="_blank"
+                                    className="text-white hover:underline"
+                                >
+                                    Arthur Alvarenga
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/_anapfranca/"
+                                    target="_blank"
+                                    className="text-white hover:underline"
+                                >
+                                    Ana Carolina
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.figma.com/community/file/1164046882633361201/[FREE-TEMPLATE]-eCommerce-Website---Monito-Pets-for-Best-(Community)/[FREE-TEMPLATE]-eCommerce-Website---Monito-Pets-for-Best-(Community)"
+                                    target="_blank"
+                                    className="text-white hover:underline"
+                                >
+                                    Magenest and Sotan (Magenest JSC,.)
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.cufonfonts.com/font/svn-gilroy"
+                                    target="_blank"
+                                    className="text-white hover:underline"
+                                >
+                                    Tuấn
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.elo7.com.br/papel-de-parede-adesivo-patas-de-cachorro-osso-pet-017/dp/18A5132"
+                                    target="_blank"
+                                    className="text-white hover:underline"
+                                >
+                                    Elo7
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
                     <div>
-                        <h1 className="font-bold uppercase">Víctor Souza</h1>
+                        <h1 className="font-bold uppercase text-orange-shine">Víctor Souza</h1>
 
                         <ul className="list-none">
                             <li>
