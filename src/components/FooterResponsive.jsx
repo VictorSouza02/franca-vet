@@ -149,7 +149,7 @@ export default function FooterResponsive() {
                         <ul className="list-none">
                             <li>
                                 <a
-                                    href="https://https://www.victorsouza.dev"
+                                    href="https://www.victorsouza.dev"
                                     target="_blank"
                                     className="text-white hover:underline"
                                 >
